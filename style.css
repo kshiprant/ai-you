@@ -1,0 +1,38 @@
+body {
+  background: #f5faff;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+header {
+  padding: 10px;
+  background: #ffffff;
+}
+
+#avatar {
+  width: 120px;
+  height: 120px;
+  margin: 20px auto;
+  border-radius: 50%;
+  background: radial-gradient(circle, #9ccfff, #4a90e2);
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
+
+#chat {
+  background: white;
+  width: 90%;
+  max-width: 500px;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#messages {
+  min-height: 200px;
+}
